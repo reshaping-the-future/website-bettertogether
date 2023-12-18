@@ -1,0 +1,248 @@
+html,
+body {
+	height: 100%;
+}
+.site-wrapper {
+	background: url(/css/background.min.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	color: #333;
+	text-shadow: 0 1px 3px rgba(255, 255, 255, .5);
+}
+.site-wrapper {
+	display: table;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+.site-wrapper-inner {
+	display: table-cell;
+	vertical-align: top;
+}
+.cover-container {
+	margin-right: auto;
+	margin-left: auto;
+}
+.inner {
+	padding: 26px;
+}
+.inner a,
+.inner a:focus,
+.inner a:hover {
+	text-decoration: none;
+}
+.masthead {
+	z-index: 1;
+	background-color: #c80915;
+	text-align: center;
+}
+.masthead-brand {
+	color: #f9f9f9;
+	color: rgba(255, 255, 255, .95);
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.masthead-brand-inner {
+	color: #e0e0e0;
+	color: rgba(255, 255, 255, .75);
+	font-size: 82%;
+	font-weight: 300;
+}
+.masthead-nav>li {
+	display: inline-block;
+}
+.masthead-nav>li+li {
+	margin-left: 10px;
+}
+.masthead-nav>li>a {
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	color: rgba(255, 255, 255, .95);
+	border-bottom: 2px solid transparent;
+}
+.masthead-nav>li>a:hover,
+.masthead-nav>li>a:focus {
+	background-color: transparent;
+	border-bottom-color: #a9a9a9;
+	border-bottom-color: rgba(255, 255, 255, .65);
+}
+.masthead-nav>.active>a,
+.masthead-nav>.active>a:hover,
+.masthead-nav>.active>a:focus {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+.masthead-brand-link:hover,
+.masthead-brand-link:focus {
+	text-decoration: none;
+}
+.cover {
+	padding: 0;
+	background-color: #fff;
+}
+@media (min-width: 600px) {
+	.masthead-brand {
+		font-size: 22px;
+	}
+	.masthead-nav>li>a {
+		font-size: 15px;
+	}
+	.masthead-nav>li+li {
+		margin-left: 20px;
+	}
+}
+@media (min-width: 1040px) {
+	.masthead-brand {
+		float: left;
+	}
+	.masthead-nav {
+		float: right;
+	}
+	.masthead {
+		position: fixed;
+		top: 0;
+	}
+	.masthead,
+	.mastfoot,
+	.cover-container {
+		width: 100%;
+	}
+	.cover {
+		margin-top: 94px;
+	}
+}
+.content a,
+.content a:focus,
+.content a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.mastfoot {
+	padding: 5px;
+	background-color: #c80915;
+	color: #999;
+	color: rgba(255, 255, 255, .75);
+	width: 100%;
+	text-align: center;
+}
+.mastfoot a {
+	color: #e0e0e0;
+	color: rgba(255, 255, 255, .75);
+	text-decoration: none;
+}
+.mastfoot a:hover,
+.mastfoot a:focus{
+	text-decoration: underline;
+}
+h1 {
+	font-size: 18px;
+}
+h2 {
+	font-size: 16px;
+	margin-top: 30px;
+}
+.content {
+	font-size: 14px;
+	background-color: #fff;
+	padding: 10px 15px 20px 15px;
+}
+.content p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+	.content {
+		font-size: 16px;
+		line-height: 160%;
+	}
+	.content p {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+@media (min-width: 1040px) {
+	.content {
+		padding: 30px 100px 50px 100px;
+	}
+	.content p {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 17.5px;
+	}
+}
+@media (min-width: 1292px) { /* must be last */
+/*
+	.masthead,
+	.mastfoot,
+	.cover-container
+*/
+	.content {
+		width: 1292px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hero-gallery__cell {
+	width: 100%;
+	height: 360px;
+	color: white;
+	background: url('../img/1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.hero-gallery__cell--2 {
+	background: url('../img/2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.hero-gallery__cell--3 {
+	background: url('../img/3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.hero-gallery__cell--4 {
+	background: url('../img/4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.hero-gallery__cell--5 {
+	background: url('../img/5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
